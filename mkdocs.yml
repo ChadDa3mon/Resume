@@ -1,7 +1,7 @@
 site_name: Automation Projects
 site_author: Chadd Horanburg
 site_url: https://chadda3mon.github.io/resume
-repo_url: https://github.com/ChadDa3mon/Resume
+repo_url: https://github.com/ChadDa3mon
 repo_name: Resume
 theme:
   name: material
