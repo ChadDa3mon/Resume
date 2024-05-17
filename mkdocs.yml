@@ -1,0 +1,72 @@
+site_name: Automation Projects
+site_author: Chadd Horanburg
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
+    - content.action.edit
+    - navigation.indexes
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: ibm
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+markdown_extensions:
+  - toc:
+      baselevel: 2
+      permalink: ⚓︎
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+
+
+plugins:
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            show_root_heading: true
+            docstring_section_style: list
+            show_docstring_description: true
+          paths: [app]
+  - tags:
+      tags_file: tags.md
+
+
+nav:
+  - 'Resume': resume.md
+  - 'Skills': skills.md
+  - 'Automation Projects':
+    - 'Firewall as Code': banking.md
+    - 'Alert SLA': alert_sla.md
+    - 'Response SLA': response_sla.md
+    - 'Mr. Bean': bean.md
+    - 'Common framework for Ansible': commons.md
+    - 'Bulk Tickets': bulk_tickets.md
+    - 'Customer SNOW': remote_snow.md
+    - 'Compliance Request': compliance.md
+    - 'Logsource': logsource.md
+    - 'Secure Device Proxy': device_proxy.md
+    - 'ESPP': espp.md
