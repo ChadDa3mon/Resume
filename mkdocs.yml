@@ -1,4 +1,4 @@
-site_name: Automation Projects
+site_name: Chadd Horanburg
 site_author: Chadd Horanburg
 site_url: https://chadda3mon.github.io
 repo_url: https://github.com/ChadDa3mon/Resume
@@ -8,10 +8,6 @@ theme:
   icon:
     repo: fontawesome/brands/github
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - toc.integrate
-    - content.action.edit
     - navigation.indexes
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -58,6 +54,7 @@ plugins:
 
 
 nav:
+  - 'About Me': about.md
   - 'Resume': resume.md
   - 'Skills': skills.md
   - 'Automation Projects':
