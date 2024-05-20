@@ -9,6 +9,7 @@
 
 # Soft Skills
 - Exceptional customer service with roughly 10 years as an escalation point in various environments, working for some of the most difficult and demanding customers we had. 
+- Heart of a Teacher
 - Excellent at distilling complex technical concepts into understandable terms for non-technical audiences.
 - Problem Solver, often pulled into complex issues and asked for "out of the box" ideas. Able to deliver creative solutions that utilize open source products, helping to reduce costs while still meeting the needs of the requestor. 
 - Ability to work and develop in multiple systems earns me the title of 'the guy who can just get things done'. A recent example of this was building and deploying a micro-service to our production OCP environment, and then also building the corresponding automations and API calls in ServiceNow to take advantage of it.
